@@ -27,7 +27,7 @@ client.on(Events.MessageCreate, async (interaction) => {
 	 */
 	const id = interaction.author.id;
 	const user = userMention(id);
-	await interaction.reply(`${user}，sending 1 SGR-1 token to {用户留的地址}`);
+	await interaction.reply(`${user}，sending 1 SGR-1 token to {用户留的地址} v1.0`);
 });
 
 const discordStart = async() => {
